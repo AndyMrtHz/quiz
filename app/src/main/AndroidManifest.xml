@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geb.quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quiz">
+        <activity android:name=".test6.Score_6"></activity>
+        <activity android:name=".test6.Pregunta6_5" />
+        <activity android:name=".test6.Pregunta6_4" />
+        <activity android:name=".test6.Pregunta6_3" />
+        <activity android:name=".test6.Pregunta6_2" />
+        <activity android:name=".test6.Pregunta6_1" />
+        <activity android:name=".test5.Score_5" />
+        <activity android:name=".test5.Pregunta5_5" />
+        <activity android:name=".test5.Pregunta5_4" />
+        <activity android:name=".test5.Pregunta5_3" />
+        <activity android:name=".test5.Pregunta5_2" />
+        <activity android:name=".test5.Pregunta5_1" />
+        <activity android:name=".test4.Score_4" />
+        <activity android:name=".test4.Pregunta4_5" />
+        <activity android:name=".test4.Pregunta4_4" />
+        <activity android:name=".test4.Pregunta4_3" />
+        <activity android:name=".test4.Pregunta4_2" />
+        <activity android:name=".test4.Pregunta4_1" />
+        <activity android:name=".test3.Score_3" />
+        <activity android:name=".test3.Pregunta3_5" />
+        <activity android:name=".test3.Pregunta3_4" />
+        <activity android:name=".test3.Pregunta3_3" />
+        <activity android:name=".test3.Pregunta3_2" />
+        <activity android:name=".test3.Pregunta3_1" />
+        <activity android:name=".test2.Score_2" />
+        <activity android:name=".test2.Pregunta2_5" />
+        <activity android:name=".test2.Pregunta2_4" />
+        <activity android:name=".test2.Pregunta2_3" />
+        <activity android:name=".test2.Pregunta2_2" />
+        <activity android:name=".test2.Pregunta2_1" />
+        <activity android:name=".test1.Score" />
+        <activity android:name=".test1.Pregunta5" />
+        <activity android:name=".test1.Pregunta4" />
+        <activity android:name=".test1.Pregunta3" />
+        <activity android:name=".test1.Pregunta2" />
+        <activity android:name=".test1.Pregunta1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
